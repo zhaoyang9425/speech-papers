@@ -2,34 +2,39 @@
 
 ## Speech Recognition
 
-### Architecture
-Moritz N, Hori T, Roux J L. Streaming automatic speech recognition with the transformer model[J]. arXiv preprint arXiv:2001.02674, 2020. [[paper](https://arxiv.org/abs/2001.02674)]
+### New Models
+Kubo Y, Bacchiani M. Joint Phoneme-Grapheme Model for End-To-End Speech Recognition[C]//ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020: 6119-6123.
+[[paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45885a679869bf40528dcf46cfd795a3003eeb5e.pdf)][[videa](https://2020.ieeeicassp-virtual.org/presentation/lecture/joint-phoneme-grapheme-model-end-end-speech-recognition)]
 
-Karita S, Chen N, Hayashi T, et al. A comparative study on transformer vs rnn in speech applications[J]. arXiv preprint arXiv:1909.06317, 2019. [[paper](https://arxiv.org/pdf/1909.06317)]
+Kriman S, Beliaev S, Ginsburg B, et al. Quartznet: Deep automatic speech recognition with 1d time-channel separable convolutions[C]//ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020: 6124-6128.
+[[paper](https://arxiv.org/pdf/1910.10261)][[video](https://2020.ieeeicassp-virtual.org/presentation/lecture/quartznet-deep-automatic-speech-recognition-1d-time-channel-separable)]
 
-Moritz N, Hori T, Le Roux J. Streaming End-to-End Speech Recognition with Joint CTC-Attention Based Models[C]//Proc. IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU). 2019. [[paper](https://www.merl.com/publications/docs/TR2019-159.pdf)]
+Tripathi A, Lu H, Sak H. End-To-End Multi-Talker Overlapping Speech Recognition[C]//ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020: 6129-6133.
+[[paper](https://www.merl.com/publications/docs/TR2018-001.pdf)][[video](https://2020.ieeeicassp-virtual.org/presentation/lecture/end-end-multi-talker-overlapping-speech-recognition)]
 
-Schneider S, Baevski A, Collobert R, et al. wav2vec: Unsupervised pre-training for speech recognition[J]. arXiv preprint arXiv:1904.05862, 2019. 
-[[paper](https://arxiv.org/pdf/1904.05862)][[PyTorch](https://github.com/pytorch/fairseq/blob/master/fairseq/models/wav2vec.py)]
+Chang X, Zhang W, Qian Y, et al. End-To-End Multi-Speaker Speech Recognition With Transformer[C]//ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020: 6134-6138.
+[[paper](https://arxiv.org/pdf/2002.03921)][[video](https://www.youtube.com/watch?v=Mo2RRNgfU4g)]
+
+Variani E, Rybach D, Allauzen C, et al. Hybrid autoregressive transducer (HAT)[C]//ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020: 6139-6143.
+[[paper](https://arxiv.org/pdf/2003.07705)][[video](https://2020.ieeeicassp-virtual.org/presentation/lecture/hybrid-autoregressive-transducer-hat)]
+
+Winata G I, Cahyawijaya S, Lin Z, et al. Lightweight and Efficient End-to-End Speech Recognition Using Low-Rank Transformer[C]//ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020: 6144-6148.
+[[paper](https://arxiv.org/pdf/1910.13923)][[video](https://2020.ieeeicassp-virtual.org/presentation/lecture/lightweight-and-efficient-end-end-speech-recognition-using-low-rank)]
+
+J. Li, R. Zhao, H. Hu, and Y. Gong, “Improving RNN transducer modeling for end-to-end speech recognition,” arXiv preprint arXiv:abs/1909.12415, 2019. 
+[[paper](https://arxiv.org/pdf/1909.12415)]
+
+Moritz N, Hori T, Le Roux J. Streaming End-to-End Speech Recognition with Joint CTC-Attention Based Models[C]//Proc. IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU). 2019. 
+[[paper](https://www.merl.com/publications/docs/TR2019-159.pdf)]
 
 Pratap V, Hannun A, Xu Q, et al. wav2letter++: The fastest open-source speech recognition system[J]. arXiv preprint arXiv:1812.07625, 2018.
 [[paper](https://arxiv.org/pdf/1812.07625)][[code](https://github.com/facebookresearch/wav2letter)]
 
-Chan W, Jaitly N, Le Q V, et al. Listen, attend and spell[J]. arXiv preprint arXiv:1508.01211, 2015. [[paper](https://arxiv.org/abs/1508.01211)]
+Chan W, Jaitly N, Le Q V, et al. Listen, attend and spell[J]. arXiv preprint arXiv:1508.01211, 2015. 
+[[paper](https://arxiv.org/abs/1508.01211)]
 
-Graves A. Sequence transduction with recurrent neural networks[J]. arXiv preprint arXiv:1211.3711, 2012. [[paper](https://arxiv.org/abs/1211.3711)]
-
-J. Li, R. Zhao, H. Hu, and Y. Gong, “Improving RNN transducer modeling for end-to-end speech recognition,” arXiv preprint arXiv:abs/1909.12415, 2019. [[paper](https://arxiv.org/pdf/1909.12415)]
-
-Prabhavalkar R, Rao K, Sainath T N, et al. A Comparison of Sequence-to-Sequence Models for Speech Recognition[C]//Interspeech. 2017: 939-943. [[paper](https://pdfs.semanticscholar.org/6cc6/8e8adf34b580f3f37d1bd267ee701974edde.pdf)]
-
-Chiu C C, Raffel C. Monotonic chunkwise attention[J]. arXiv preprint arXiv:1712.05382, 2017. [[paper](https://arxiv.org/pdf/1712.05382)]
-
-Moritz N, Hori T, Le Roux J. Triggered attention for end-to-end speech recognition[C]//ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2019: 5666-5670. [[paper](http://www.merl.com/publications/docs/TR2019-015.pdf)]
-
-Watanabe S, Hori T, Kim S, et al. Hybrid CTC/attention architecture for end-to-end speech recognition[J]. IEEE Journal of Selected Topics in Signal Processing, 2017, 11(8): 1240-1253. [[paper](http://www.merl.com/publications/docs/TR2017-190.pdf)]
-
-Dong L, Xu S, Xu B. Speech-transformer: a no-recurrence sequence-to-sequence model for speech recognition[C]//2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2018: 5884-5888. [[paper](http://150.162.46.34:8080/icassp2018/ICASSP18_USB/pdfs/0005884.pdf)]
+Graves A. Sequence transduction with recurrent neural networks[J]. arXiv preprint arXiv:1211.3711, 2012. 
+[[paper](https://arxiv.org/abs/1211.3711)]
 
 #### Speech Transformer
 Dong L, Xu S, Xu B. Speech-transformer: a no-recurrence sequence-to-sequence model for speech recognition[C]//2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2018: 5884-5888.
@@ -44,26 +49,45 @@ Zhou S, Dong L, Xu S, et al. Syllable-based sequence-to-sequence speech recognit
 Zhou S, Xu S, Xu B. Multilingual end-to-end speech recognition with a single transformer on low-resource languages[J]. arXiv preprint arXiv:1806.05059, 2018.
 [[paper](https://arxiv.org/pdf/1806.05059)]
 
-### Method
+### Streaming
+Moritz N, Hori T, Roux J L. Streaming automatic speech recognition with the transformer model[J]. arXiv preprint arXiv:2001.02674, 2020. 
+[[paper](https://arxiv.org/abs/2001.02674)]
 
-Hori T, Watanabe S, Zhang Y, et al. Advances in joint CTC-attention based end-to-end speech recognition with a deep CNN encoder and RNN-LM[J]. arXiv preprint arXiv:1706.02737, 2017. [[paper](https://arxiv.org/pdf/1706.02737)]
+### Self-Supervised or Pretraining
+Schneider S, Baevski A, Collobert R, et al. wav2vec: Unsupervised pre-training for speech recognition[J]. arXiv preprint arXiv:1904.05862, 2019. 
+[[paper](https://arxiv.org/pdf/1904.05862)][[PyTorch](https://github.com/pytorch/fairseq/blob/master/fairseq/models/wav2vec.py)]
 
-Kim S, Hori T, Watanabe S. Joint CTC-attention based end-to-end speech recognition using multi-task learning[C]//2017 IEEE international conference on acoustics, speech and signal processing (ICASSP). IEEE, 2017: 4835-4839. 
-[[paper](https://arxiv.org/pdf/1609.06773)][[PyTorch](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)]
+### Attention
+Chiu C C, Raffel C. Monotonic chunkwise attention[J]. arXiv preprint arXiv:1712.05382, 2017. 
+[[paper](https://arxiv.org/pdf/1712.05382)]
+
+Moritz N, Hori T, Le Roux J. Triggered attention for end-to-end speech recognition[C]//ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2019: 5666-5670. 
+[[paper](http://www.merl.com/publications/docs/TR2019-015.pdf)]
+
+Watanabe S, Hori T, Kim S, et al. Hybrid CTC/attention architecture for end-to-end speech recognition[J]. IEEE Journal of Selected Topics in Signal Processing, 2017, 11(8): 1240-1253. 
+[[paper](http://www.merl.com/publications/docs/TR2017-190.pdf)]
+
+Hori T, Watanabe S, Zhang Y, et al. Advances in joint CTC-attention based end-to-end speech recognition with a deep CNN encoder and RNN-LM[J]. arXiv preprint arXiv:1706.02737, 2017. 
+[[paper](https://arxiv.org/pdf/1706.02737)]
+
+J. Li, R. Zhao, H. Hu, and Y. Gong, “Improving RNN transducer modeling for end-to-end speech recognition,” arXiv preprint arXiv:abs/1909.12415, 2019. 
+[[paper](https://arxiv.org/pdf/1909.12415)]
 
 [[语音中的attention机制的发展与应用](https://github.com/aaaceo890/Attention)]
 
-### Audio-Visual Speech Recognition
+### Survey
+Karita S, Chen N, Hayashi T, et al. A comparative study on transformer vs rnn in speech applications[J]. arXiv preprint arXiv:1909.06317, 2019. [[paper](https://arxiv.org/pdf/1909.06317)]
 
+Prabhavalkar R, Rao K, Sainath T N, et al. A Comparison of Sequence-to-Sequence Models for Speech Recognition[C]//Interspeech. 2017: 939-943. [[paper](https://pdfs.semanticscholar.org/6cc6/8e8adf34b580f3f37d1bd267ee701974edde.pdf)]
+
+### Audio-Visual Speech Recognition
 Petridis S, Stafylakis T, Ma P, et al. Audio-visual speech recognition with a hybrid ctc/attention architecture[C]//2018 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2018: 513-520. 
 [[paper](https://arxiv.org/pdf/1810.00108)]
 
 ## Speech Augmentation
-
 Park D S, Chan W, Zhang Y, et al. Specaugment: A simple data augmentation method for automatic speech recognition[J]. arXiv preprint arXiv:1904.08779, 2019. [[paper](https://arxiv.org/pdf/1904.08779.pdf?source=post_page---------------------------)]
 
 ## Voice Conversion
-
 Kameoka H, Kaneko T, Tanaka K, et al. StarGAN-VC: Non-parallel many-to-many voice conversion using star generative adversarial networks[C]//2018 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2018: 266-273.
 [[paper](https://arxiv.org/pdf/1806.02169)][[PyTorch](https://github.com/liusongxiang/StarGAN-Voice-Conversion)]
 
