@@ -54,8 +54,28 @@ Moritz N, Hori T, Roux J L. Streaming automatic speech recognition with the tran
 [[paper](https://arxiv.org/abs/2001.02674)]
 
 ### Self-Supervised or Pretraining
+Rivière M, Joulin A, Mazaré P E, et al. Unsupervised pretraining transfers well across languages[C]//ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020: 7414-7418.
+[[paper](https://arxiv.org/pdf/2002.02848.pdf)][[code](https://github.com/facebookresearch/CPC_audio)]
+
+Chen Y C, Yang Z, Yeh C F, et al. Aipnet: Generative Adversarial Pre-Training of Accent-Invariant Networks for End-To-End Speech Recognition[C]//ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020: 6979-6983.
+[[paper](https://arxiv.org/pdf/1911.11935.pdf)]
+
+Chung Y A, Glass J. Generative pre-training for speech with autoregressive predictive coding[C]//ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020: 3497-3501.
+[[paper](https://arxiv.org/pdf/1910.12607.pdf)]
+
 Schneider S, Baevski A, Collobert R, et al. wav2vec: Unsupervised pre-training for speech recognition[J]. arXiv preprint arXiv:1904.05862, 2019. 
 [[paper](https://arxiv.org/pdf/1904.05862)][[PyTorch](https://github.com/pytorch/fairseq/blob/master/fairseq/models/wav2vec.py)]
+
+Baevski A, Auli M, Mohamed A. Effectiveness of self-supervised pre-training for speech recognition[J]. arXiv preprint arXiv:1911.03912, 2019.
+[[paper](https://arxiv.org/pdf/1911.03912.pdf)]
+
+Oord A, Li Y, Vinyals O. Representation learning with contrastive predictive coding[J]. arXiv preprint arXiv:1807.03748, 2018.
+[[paper](https://arxiv.org/pdf/1807.03748.pdf)][[code](https://github.com/davidtellez/contrastive-predictive-coding)]
+
+Hyvarinen A, Morioka H. Unsupervised feature extraction by time-contrastive learning and nonlinear ICA[C]//Advances in Neural Information Processing Systems. 2016: 3765-3773.
+[[paper](https://papers.nips.cc/paper/6395-unsupervised-feature-extraction-by-time-contrastive-learning-and-nonlinear-ica.pdf)][[Tensorflow](https://github.com/hirosm/TCL)]
+
+
 
 ### Attention
 Chiu C C, Raffel C. Monotonic chunkwise attention[J]. arXiv preprint arXiv:1712.05382, 2017. 
@@ -85,7 +105,11 @@ Petridis S, Stafylakis T, Ma P, et al. Audio-visual speech recognition with a hy
 [[paper](https://arxiv.org/pdf/1810.00108)]
 
 ## Speech Augmentation
-Park D S, Chan W, Zhang Y, et al. Specaugment: A simple data augmentation method for automatic speech recognition[J]. arXiv preprint arXiv:1904.08779, 2019. [[paper](https://arxiv.org/pdf/1904.08779.pdf?source=post_page---------------------------)]
+Park D S, Chan W, Zhang Y, et al. Specaugment: A simple data augmentation method for automatic speech recognition[J]. arXiv preprint arXiv:1904.08779, 2019. 
+[[paper](https://arxiv.org/pdf/1904.08779.pdf?source=post_page---------------------------)]
+
+Wang C, Wu Y, Du Y, et al. Semantic mask for transformer based end-to-end speech recognition[J]. arXiv preprint arXiv:1912.03010, 2019.
+[[paper](https://arxiv.org/pdf/1912.03010)][[code](https://github.com/MarkWuNLP/SemanticMask)][[video](https://www.youtube.com/watch?v=v98BSaVt-Tw)]
 
 ## Voice Conversion
 Kameoka H, Kaneko T, Tanaka K, et al. StarGAN-VC: Non-parallel many-to-many voice conversion using star generative adversarial networks[C]//2018 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2018: 266-273.
